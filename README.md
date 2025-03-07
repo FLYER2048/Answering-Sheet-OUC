@@ -37,6 +37,7 @@
 - **find_mark(path, filename)**: 从指定图像中找到标志位。
 - **mark_blocks(path, filename)**: 识别填写的准考证号和选择项，并标记图像。
 - **transforms_2D(path, filename, pos)**: 对图像进行透视变换。
+
 为了寻找图像中的三个位置标志点，本程序采取的是枚举的方式，因而效率较低，有进一步优化的空间。
 
 ### 数据分析
