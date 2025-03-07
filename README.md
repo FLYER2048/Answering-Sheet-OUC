@@ -54,3 +54,4 @@
 ## 注意事项
 - 在使用该程序之前，请确保已安装所需的 Python 库，例如 `Pillow` 和 `matplotlib`。
 - 本程序的参数设置（如 `black_degree` 和 `black_rate`）可能需要根据实际图像情况进行调整，以优化识别效果。
+- 程序运行时应提前建立`images`、`transformed`、`marked`、`output`四个文件夹，答题卡图片应存储在`images`文件夹内，答题卡至少包括1张标准答案、1张分数说明、2张学生答卷。
